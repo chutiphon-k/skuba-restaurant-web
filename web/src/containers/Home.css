@@ -1,0 +1,8 @@
+.card.home {
+	min-height: 250px;
+}
+
+.button.is-info {
+	margin-bottom: 20px;
+	/*align-self: flex-end;*/
+}
