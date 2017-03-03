@@ -13,6 +13,9 @@
 - Webpack 2
 - Babel
 - Bulma
+- Expressjs
+- Socket.io
+- MQTT
 
 ## Using Web
 ```bash
