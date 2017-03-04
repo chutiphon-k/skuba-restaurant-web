@@ -35,6 +35,7 @@ class Home extends Component {
 							break
 					}
 					break
+				case "active":
 				case "finish":
 					switch(res.name){
 						case "lumyai":
@@ -42,9 +43,6 @@ class Home extends Component {
 							break
 						case "turtle":
 							this.setState({ picTurtle: turtleWork })
-							break
-						default:
-							console.log('aaa')
 							break
 					}
 					break
@@ -79,7 +77,7 @@ class Home extends Component {
 				<div className='content is-medium'>
 					<div className="columns">
 					  <div className="column" />
-					  <div className="column" onClick={() => alert('aaa')}>
+					  <div className="column">
 					  	<div className="card">
 						<div className="card-content">
 						<div className="has-text-centered">
