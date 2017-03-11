@@ -1,6 +1,6 @@
 const config = {
   mqtt: {
-    host: 'localhost',
+    host: '10.2.31.78',
     port: 1883,
   },
   server: {

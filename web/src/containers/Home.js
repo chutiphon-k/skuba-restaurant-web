@@ -49,13 +49,13 @@ class Home extends Component {
 			}
 			
 			switch(res.table){
-				case 'a':
+				case 'table a':
 					this.setState({ orderA: res.order })
 					break
-				case 'b':
+				case 'table b':
 					this.setState({ orderB: res.order })
 					break
-				case 'c':
+				case 'table c':
 					this.setState({ orderC: res.order })
 					break
 			}
